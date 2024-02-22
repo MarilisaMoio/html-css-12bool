@@ -9,7 +9,7 @@
 
 /* #region CONTAINERS */
 .container-1170{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 /* #endregion CONTAINERS */
