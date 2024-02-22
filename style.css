@@ -11,3 +11,73 @@ ul, ol {
 }
 /* #endregion RESET */
 
+[class*="col-"]{
+    padding: 0px 1.5px;
+}
+
+.row{
+    margin: 1.5px -1.5px;
+}
+
+.box{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-1 > .box{
+    background-color: purple;
+}
+
+.col-2 > .box{
+    background-color:plum;
+}
+
+.col-3 > .box{
+    background-color:deepskyblue;
+}
+
+.col-4 > .box{
+    background-color: blue;
+}
+
+.col-5 > .box{
+    background-color:limegreen;
+}
+
+.col-6 > .box{
+    background-color:chartreuse;
+}
+
+.col-7 > .box{
+    background-color:gold;
+}
+
+.col-8 > .box{
+    background-color:darkorange;
+}
+
+.col-9 > .box{
+    background-color:red;
+}
+
+.col-10 > .box{
+    background-color:deeppink;
+}
+
+.col-11 > .box{
+    background-color:darkmagenta;
+}
+
+.col-12 > .box{
+    background-color:rebeccapurple;
+}
+
+.box.nested{
+    background-color: lightsalmon;
+}
+
+
+
+
