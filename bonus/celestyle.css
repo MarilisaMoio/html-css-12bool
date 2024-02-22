@@ -23,8 +23,15 @@ body{
     margin: 0 auto;
 }
 
-.container-square > .row{
-    height: 50%
+.row.title{
+    height: 20vh;
+    & > .col-12 {
+        height: 100%;
+        text-align: center;
+    }
+    & img{
+        height: 100%;
+    }
 }
 
 .col-6{
